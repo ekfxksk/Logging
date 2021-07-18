@@ -11,7 +11,6 @@
     spring boot log 참고 :  
         > https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging
 
-
 ### 2. Spring boot logback 참조 순서
     - Classpath(resources 디렉토리 밑)에 logback-spring.xml 파일이 있으면 설정 파일을 읽어간다.
 	- logbakc-spring.xml 파일이 없다면 properties 파일 또는 yml 파일의 설정을 읽어 간다.
